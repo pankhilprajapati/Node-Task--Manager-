@@ -1,5 +1,6 @@
 const express = require('express')
 require('./db/mongoose')
+const dotenv = require('dotenv').config()
 
 const userRouter = require('./routes/user')
 const taskRouter = require('./routes/task')
